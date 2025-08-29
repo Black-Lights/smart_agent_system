@@ -2,14 +2,17 @@
 
 A powerful multi-agent desktop automation platform that combines browser-based automation with desktop control, featuring intelligent session history and contextual awareness.
 
+**Powered by [Browser Use](https://github.com/browser-use/browser-use)** - An advanced browser automation framework for web tasks.
+
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Browser Use](https://img.shields.io/badge/Browser%20Use-0.7.0-green.svg)](https://github.com/browser-use/browser-use)
+[![GitHub](https://img.shields.io/badge/GitHub-Black--Lights-blue.svg)](https://github.com/Black-Lights/smart_agent_system)
 
 ## 🌟 Features
 
 ### Core Capabilities
-- **🌐 Browser Automation** - Web research, shopping, form filling using Browser Use
+- **🌐 Browser Automation** - Web research, shopping, form filling using [Browser Use](https://github.com/browser-use/browser-use)
 - **💻 Desktop Control** - File management, app control, system settings via PyAutoGUI  
 - **🧠 Intelligent Routing** - Automatically selects the best agent for each task
 - **📖 Session History** - Remembers context across commands with AI-powered summarization
@@ -33,7 +36,7 @@ A powerful multi-agent desktop automation platform that combines browser-based a
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Black-Lights/smart_agent_system.git
    cd smart_agent_system
    ```
 
@@ -167,6 +170,16 @@ The history system provides contextual awareness across sessions:
 - **Context Generation** - Smart context creation for LLM prompts
 - **Analytics** - Success rates, agent usage, performance metrics
 
+### Browser Automation Integration
+
+This system integrates [Browser Use](https://github.com/browser-use/browser-use) for advanced web automation:
+
+- **Intelligent Web Navigation** - AI-powered browser control and interaction
+- **Dynamic Content Handling** - Handles JavaScript, forms, and modern web apps
+- **Multi-Model Support** - Works with GPT-4, Claude, and other LLMs
+- **Context-Aware Actions** - Uses session history for better web automation decisions
+- **Cost-Optimized Execution** - Combines DeepSeek reasoning with Browser Use execution
+
 ## 🔧 Development
 
 ### Running Tests
@@ -262,17 +275,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Browser Use** - Excellent browser automation framework
-- **OpenAI** - GPT models for intelligent task execution  
-- **DeepSeek** - Cost-effective AI reasoning
-- **PyAutoGUI** - Desktop automation capabilities
-- **Rich** - Beautiful terminal interfaces
+- **[Browser Use](https://github.com/browser-use/browser-use)** - Excellent browser automation framework (MIT License)
+- **[OpenAI](https://openai.com)** - GPT models for intelligent task execution  
+- **[DeepSeek](https://www.deepseek.com)** - Cost-effective AI reasoning
+- **[PyAutoGUI](https://github.com/asweigart/pyautogui)** - Desktop automation capabilities
+- **[Rich](https://github.com/Textualize/rich)** - Beautiful terminal interfaces
+
+### Browser Use License Notice
+This project uses [Browser Use](https://github.com/browser-use/browser-use) which is licensed under the MIT License.
+Copyright (c) Browser Use contributors. See their [LICENSE](https://github.com/browser-use/browser-use/blob/main/LICENSE) for details.
 
 ## 📞 Support
 
-- 📧 Email: your-email@example.com
-- 💬 Discord: your-discord-server
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/smart-agent-system/issues)
+-  **Issues**: [GitHub Issues](https://github.com/Black-Lights/smart_agent_system/issues)
+- 📖 **Documentation**: [README](https://github.com/Black-Lights/smart_agent_system#readme)
+- ⭐ **Star this repo** if you find it useful!
 
 ## 🗺️ Roadmap
 
@@ -292,4 +309,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ for intelligent automation**
+**Built with ❤️ for intelligent automation by [Ammar (Black-Lights)](https://github.com/Black-Lights)**
+
+**Powered by [Browser Use](https://github.com/browser-use/browser-use) for advanced web automation**

@@ -6,6 +6,12 @@
 """
 Smart Agent System - Main Entry Point
 Multi-Agent Desktop Automation with Browser Use + Desktop Control
+
+Author: Ammar (Black-Lights)
+GitHub: https://github.com/Black-Lights/smart_agent_system
+License: MIT
+
+Powered by Browser Use (https://github.com/browser-use/browser-use)
 """
 
 import asyncio
