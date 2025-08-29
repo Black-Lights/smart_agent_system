@@ -1,0 +1,298 @@
+# ================================
+# Smart Agent System - .gitignore
+# ================================
+
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ================================
+# Virtual Environments
+# ================================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# ================================
+# IDE & Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ================================
+# Environment & Secrets
+# ================================
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+*.pem
+*.key
+secrets.json
+config/secrets/
+
+# ================================
+# Logs & Data
+# ================================
+logs/
+*.log
+log_*.txt
+debug.log
+error.log
+
+# Session history and data
+history_data/
+session_*.json*
+extracted_content_*.md
+
+# Screenshots and media
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+*.wav
+*.mp3
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# ================================
+# Browser Use & Automation
+# ================================
+# Browser Use generated files
+browseruse_agent_data/
+extracted_content_*.md
+browser_profiles/
+*.crdownload
+*.partial
+
+# PyAutoGUI screenshots
+pyautogui_*.png
+
+# Selenium artifacts
+chromedriver*
+geckodriver*
+*.har
+
+# ================================
+# AI/LLM Related
+# ================================
+# Model files
+*.bin
+*.safetensors
+*.onnx
+models/
+checkpoints/
+
+# API keys and tokens (backup protection)
+*api_key*
+*token*
+*secret*
+openai_key*
+deepseek_key*
+claude_key*
+
+# ================================
+# System Files
+# ================================
+# Windows
+*.exe
+*.msi
+*.dll
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Linux
+*~
+
+# Backup files
+*.backup
+*.bak
+*.old
+backups/*.backup
+backups/*.bak
+
+# ================================
+# Database
+# ================================
+*.db
+*.sqlite
+*.sqlite3
+database.db
+smart_agent.db
+
+# ================================
+# Documentation Generation
+# ================================
+docs/_build/
+site/
+.mkdocs_cache/
+
+# ================================
+# Testing & Coverage
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# ================================
+# Package Managers
+# ================================
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# ================================
+# Monitoring & Analytics
+# ================================
+# Performance data
+performance_*.json
+metrics_*.json
+analytics/
+
+# Monitoring logs
+monitor_*.log
+dashboard_*.log
+
+# ================================
+# Cloud & Deployment
+# ================================
+# Docker
+Dockerfile.prod
+docker-compose.override.yml
+.dockerignore
+
+# AWS
+.aws/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Kubernetes
+*.kubeconfig
+
+# ================================
+# Development & Testing
+# ================================
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Development databases
+dev.db
+test.db
+
+# Local configuration overrides
+config.local.json
+settings.local.py
+
+# Test outputs
+test_outputs/
+test_results/
+test_*.png
+test_*.json
+
+# ================================
+# Third-party Tools
+# ================================
+# ngrok
+ngrok
+*.ngrok
+
+# Redis dumps
+dump.rdb
+
+# Elasticsearch
+elasticsearch.yml
+
+# ================================
+# Custom Project Files
+# ================================
+# Development notes
+NOTES.md
+TODO.md
+DEVELOPMENT.md
+dev_notes/
+
+# Personal configuration
+personal_config/
+user_preferences.json
+
+# Large data files
+*.csv
+*.parquet
+data/
+datasets/
+
+# Exported session data
+exports/
+session_exports/
+
+# Custom scripts (if sensitive)
+scripts/personal/
+scripts/dev/
+
+# ================================
+# OS Generated Files
+# ================================
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msm
+*.msp
+*.lnk
