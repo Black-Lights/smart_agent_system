@@ -54,14 +54,22 @@ Thumbs.db
 # Environment & Secrets
 # ================================
 .env
-.env.local
-.env.production
-.env.staging
-.env.development
+# every .env variant, not just the named ones: .env.base and .env.enhanced
+# were tracked and carried live API keys (security sprint 2026-08-03)
+.env.*
+!.env.example
 *.pem
 *.key
 secrets.json
 config/secrets/
+
+# untracked OSINT/scratch dumps about real people — must never be published
+*_results.txt
+command.txt
+
+# 11.8MB stray PostScript dump; the extensionless name also shadows the
+# stdlib asyncio module on sys.path
+/asyncio
 
 # ================================
 # Logs & Data
